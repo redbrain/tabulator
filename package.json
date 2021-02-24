@@ -1,0 +1,35 @@
+{
+  "name": "tabulator",
+  "version": "0.0.1",
+  "description": "A voting tabulator",
+  "main": "index.html",
+  "scripts": {
+    "test": "rm -r .parcel-cache && parcel ./src/index.html",
+    "build": "rm -r .parcel-cache && parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redbrain/tabulator.git"
+  },
+  "author": "redbrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redbrain/tabulator/issues"
+  },
+  "homepage": "https://github.com/redbrain/tabulator#readme",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.608",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.608",
+    "@parcel/packager-css": "^2.0.0-nightly.608",
+    "@parcel/packager-html": "^2.0.0-nightly.608",
+    "@parcel/transformer-css": "^2.0.0-nightly.608",
+    "@parcel/transformer-html": "^2.0.0-nightly.608",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.608",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.608",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.6"
+  },
+  "dependencies": {
+    "votes": "^1.8.3"
+  }
+}
